@@ -123,7 +123,22 @@ Open frontend/index.html in a browser (suggestion: use Live Server extension for
 
 ## 🙋 Author
 
-Developed by **Atharv Mehrotra (atharvix)** – Full-stack Developer, Project Designer
+Developed by **Atharv Mehrotra (atharvix)** – Full-stack Developer | Project Designer
+
+📧 Email:  
+- [atharvmehrotra@jklu.edu.in](mailto:atharvmehrotra@jklu.edu.in)  
+- [mehrotraatharv15@gmail.com](mailto:mehrotraatharv15@gmail.com)
+
+🔗 LinkedIn:  
+[www.linkedin.com/in/atharvmehrotra27](https://www.linkedin.com/in/atharvmehrotra27)
+
+---
+
+## 🤝 Contribution
+
+Pull requests welcome for more codes, better logic, or UI improvements!
+
+---
 
 
 ---
