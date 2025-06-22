@@ -5,6 +5,23 @@ and test VHDL code right from the browser using Monaco Editor and a Node.js back
 
 ---
 
+## 🧩 Problem It Solves
+
+Learning VHDL and running simulations can be **complex, setup-heavy, and unintuitive** for beginners. Most learners struggle with:
+
+- Finding good quality **example codes** for various components like muxes, flip-flops, counters, etc.
+- Setting up **local simulation environments** like GHDL and GTKWave manually.
+- **Switching between editor and terminal**, which slows down the workflow.
+- Lack of integrated platforms to **edit, view, simulate, and test** code in one place.
+
+### ✅ VHDL Helper Pro solves this by:
+- Providing **ready-to-run VHDL code snippets** for over **60 common designs** (MUX, Decoder, Encoder, Flip-Flop, Counter, ALU).
+- Offering a **browser-based Monaco Editor** with VHDL syntax support.
+- Automatically **simulating and validating** code using a Node.js + GHDL backend.
+- Creating an **interactive learning environment** with instant feedback and testbench support.
+
+---
+
 ## 📁 Project Structure
 
 vhdl-helper-pro/
@@ -104,8 +121,12 @@ Open frontend/index.html in a browser (suggestion: use Live Server extension for
 
 ---
 
-## 👨‍💻 Contributors
-**Atharv Mehrotra (atharvix)** – Full-stack Developer, Project Designer
+## 🙋 Author
+
+Developed by **Atharv Mehrotra (atharvix)** – Full-stack Developer, Project Designer
+
+
+---
 
 ## 📜 License
 This project is licensed under the MIT License.
