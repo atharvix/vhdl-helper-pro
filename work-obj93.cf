@@ -1,0 +1,4 @@
+v 4
+file . "test.vhdl" "4e74cef0392dd2ade2a85aead99b7a0908b5c524" "20250621234833.792":
+  entity test at 2( 14) + 0 on 13;
+  architecture sim of test at 5( 45) + 0 on 14;

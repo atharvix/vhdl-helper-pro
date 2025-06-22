@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VHDL Helper Pro</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="monaco/loader.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🔧 VHDL Helper Pro</h1>
+    <p>Your ultimate VHDL learning and simulation assistant</p>
+  </header>
+
+  <main>
+    <section class="editor-panel">
+      <select id="categorySelect">
+        <option value="">Choose Category</option>
+        <option value="mux">MUX</option>
+        <option value="decoder">Decoder</option>
+        <option value="encoder">Encoder</option>
+        <option value="flipflop">Flip-Flop</option>
+        <option value="counter">Counter</option>
+        <option value="alu">ALU</option>
+      </select>
+
+      <select id="snippetSelect">
+        <option value="">Select VHDL Snippet</option>
+      </select>
+
+      <button id="loadSnippet">📥 Load</button>
+      <button id="runCode">▶ Run</button>
+      <button id="resetEditor">🔄 Reset</button>
+    </section>
+
+    <section class="editor-container">
+      <div id="editor" style="height: 400px; width: 100%;"></div>
+    </section>
+
+    <section class="output-section">
+      <h3>💡 Output</h3>
+      <pre id="output"></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 VHDL Helper Pro | Built by ATHARV MEHROTRA for learners</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

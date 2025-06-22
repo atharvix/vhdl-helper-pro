@@ -1,0 +1,81 @@
+├── frontend/
+│   ├── index.html                  # Main UI
+│   ├── style.css                   # Custom styling
+│   ├── script.js                   # Frontend logic
+│   ├── monaco/                     # Monaco setup files
+│   │   └── loader.js               # Monaco Editor loader
+│   └── snippets/                  # VHDL code folders
+│       ├── mux/
+│       │   ├── 2to1.vhdl
+│       │   └── 4to1.vhdl
+|       │   └── 8to1.vhdl
+|       │   └── 16to1.vhdl
+|       │   └── mux_behavioral.vhdl
+|       │   └── mux_structural.vhdl
+|       │   └── mux_with_enable.vhdl
+|       │   └── mux_case.vhdl
+|       │   └── mux_if_else.vhdl
+|       │   └──mux_using_array.vhdl
+│       ├── decoder/
+│       │   └── 2to4.vhdl
+|       │   └── 3to8.vhdl
+|       │   └── 4to16.vhdl
+|       │   └── decoder_with_enable.vhdl
+|       │   └── decoder_case.vhdl
+|       │   └── decoder_behavioral.vhdl
+|       │   └── decoder_structural.vhdl
+|       │   └── priority_decoder.vhdl
+|       │   └── binary_to_gray.vhdl
+|       │   └── gray_to_binary.vhdl
+│       ├── encoder/
+|       │   └── 4to2.vhdl	
+|       │   └── 8to3.vhdl
+|       │   └── encoder_with_priority.vhdl
+|       │   └── encoder_behavioral.vhdl	
+|       │   └── encoder_structural.vhdl
+|       │   └── encoder_case.vhdl
+|       │   └── encoder_with_enable.vhdl
+|       │   └── encoder_if_else.vhdl	
+|       │   └── encoder_dataflow.vhdl
+|       │   └── encoder_with_output_valid.vhdl
+│       └── flipflop/
+│           └── d_ff.vhdl
+|       │   └── d_ff_async_reset.vhdl
+|       │   └── d_ff_sync_reset.vhdl
+|       │   └── jk_ff.vhdl
+|       │   └── t_ff.vhdl
+|       │   └── sr_ff.vhdl
+|       │   └── master_slave_d_ff.vhdl
+|       │   └── toggle_ff.vhdl
+|       │   └── edge_triggered_ff.vhdl
+|       │   └── ff_with_enable.vhdl
+|       🔁 5. counter/
+File	Description
+up_counter.vhdl	4-bit up counter
+down_counter.vhdl	4-bit down counter
+updown_counter.vhdl	4-bit up-down counter
+mod10_counter.vhdl	Mod-10 counter
+counter_with_reset.vhdl	Counter with reset
+counter_with_enable.vhdl	Enable-based counter
+ring_counter.vhdl	Ring counter
+johnson_counter.vhdl	Johnson counter
+binary_counter.vhdl	Binary counter
+counter_using_ff.vhdl	Built with D flip-flops
+
+🧮 6. alu/
+File	Description
+alu_basic.vhdl	4-bit ALU
+alu_arithmetic.vhdl	ALU with add, sub, inc, dec
+alu_logical.vhdl	ALU with AND, OR, XOR
+alu_full.vhdl	ALU with all ops and select
+alu_case.vhdl	ALU using case
+alu_with_flags.vhdl	ALU with overflow/zero flags
+alu_1bit.vhdl	1-bit ALU (for structural)
+alu_behavioral.vhdl	Behavioral style
+alu_structural.vhdl	Structural design
+alu_testbench.vhdl	Basic ALU + testbench
+├── README.md
+└── .gitignore
+
+
+
